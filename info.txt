@@ -1,0 +1,7 @@
+Advantages
+Biological plausibility: One-sided, compared to the antisymmetry of tanh.
+Sparse activation: For example, in a randomly initialized network, only about 50% of hidden units are activated (having a non-zero output).
+Better gradient propagation: Fewer vanishing gradient problems compared to sigmoidal activation functions that saturate in both directions.[13]
+Efficient computation: Only comparison, addition and multiplication.
+Scale-invariant: {\displaystyle \max(0,ax)=a\max(0,x){\mbox{ for }}a\geq 0} {\displaystyle \max(0,ax)=a\max(0,x){\mbox{ for }}a\geq 0}.
+Rectifying activation functions were used to separate specific excitation and unspecific inhibition in the Neural Abstraction Pyramid, which was trained in a supervised way to learn several computer vision tasks.[14] In 2011,[3] the use of the rectifier as a non-linearity has been shown to enable training deep supervised neural networks without requiring unsupervised pre-training. Rectified linear units, compared to sigmoid function or similar activation functions, allow for faster and effective training of deep neural architectures on large and complex datasets.
